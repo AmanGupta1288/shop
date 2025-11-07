@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+html{
+    font-size: 20px;
+}
+
+/* first section */
+
+#start{
+    background: #091E3E;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+}
+#begin{
+    text-align: right;
+    /* background: yellow; */
+}
+#abc p{
+    margin-right: 20px;
+    padding-top: 12px;
+    font-size: 0.8rem;
+}
+#begin i{
+    border: 2px outset white;
+    width: 35px;
+    height: 35px;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 8px;
+    margin: 10px 3px 0 0;
+}
+
+/* second section */
+
+.second{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.second h1{
+    font-size: 4.5rem;
+    padding-top: 250px;
+    text-align: center;
+    color: #f4511e;
+}
+.second p{
+    color: #ffeb3b;
+    font-size: 1.8rem;
+}
+.blurred-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    z-index: -1;
+}
+.content{
+    text-align: center;
+}
+.alexa{
+    background: #0d29fd !important;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+}
+/* third section */
+
+#ball img{
+    width: 100%;
+    height: 50%;
+    border: 4px solid black;
+}
+.hp p{
+    font-size: 1.8rem;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+/*  */
+
+#last{
+    background: #091e3e;
+    color: #fff;
+    text-align: center;
+}
