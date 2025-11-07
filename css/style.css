@@ -99,3 +99,24 @@ html{
     color: #fff;
     text-align: center;
 }
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 426px){
+
+    .mario iframe{
+    width: 100%;
+    }
+    #abc p{
+        font-size: 0.46rem;
+    }
+    #begin{
+        display: none;
+    }
+    #casio{
+        padding: 10px 0;
+        margin-bottom: 30px;
+    }
+}
